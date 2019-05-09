@@ -1,0 +1,63 @@
+
+.nav-tabs>li {
+  /* width: 25%; */
+  width: 210px;
+  height: 42px;
+  text-align: center;
+  
+  /* color: white !important; */
+  background-color: #ed6c41 !important;
+}
+
+.nav-tabs>li>a {
+  color: white !important;
+  margin: 0px;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+  color: #ed6c41 !important;
+  margin: 0px;
+}
+
+.nav-tabs{
+  background-color: #ed6c41 !important;
+}
+
+.tab-content>.active{
+  background-color: #ececec;
+}
+
+.calendarStyle{ 
+  width: 100% !important;
+}
+.react-calendar__tile--active {
+  background-color: #ed6c41 !important;
+  color: white;
+}
+.react-calendar__tile--now{
+  border: solid 2px black !important;
+}
+
+@media only screen and (max-width: 1000px) {
+  .foodProduct{
+    width: 96% !important;
+  }
+  .foodProductTwo{
+    width: 96% !important;
+    padding-right: 5px !important;
+    padding-left: 20px !important;
+  }
+
+  .navbar-collapse.collapse{
+    /* display: block !important; */
+    display: none;
+  }
+
+  .pull-left{
+    width: 40% !important;
+  }
+
+  .pull-right{
+    width: 40% !important;
+  }
+}

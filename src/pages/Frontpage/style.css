@@ -1,0 +1,149 @@
+
+.container {
+    padding-right: 15px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+    
+  }
+
+.userImage{
+  width: 8%; 
+  height: 100%;
+  float: right; 
+  margin-top: 25px;
+}
+
+.parempiValintaImage{
+  width: 20%; 
+  float: left; 
+  margin-top: 9px;
+}
+
+.footerCopyright{
+  margin-top: 25px;
+  color: white;
+}
+
+.headerImage{
+  width: 100%; 
+  height: 100%; 
+  margin-bottom: 10px;
+}
+
+.todayMobileOn{
+  display: none;
+}
+.monthMobileOn{
+  display: none;
+}
+.monthMobileOff{
+  display: none;
+}
+
+.browserPages{
+  display: block;
+}
+
+.mobileFooterMenu{
+  display: none;
+}
+
+.mobileSidebarOff{
+  display: none;
+}
+.mobileSidebarIsOn{
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+
+  .userImage{
+    width: 30%; 
+    height: 100%;
+    float: right; 
+    margin-top: 25px;
+  }
+  .nav-tabs>li{
+    display: none;
+    /* width: 30%; */
+  }
+  .mobileSidebarIsOn{
+    display: block;
+    background-color: #ed6c41; 
+    height: 200px; 
+    position: sticky; 
+    z-index: 30; 
+    width: 34%; 
+    right: 0;
+    bottom: 0;
+    margin-left: 66%;
+    border: solid 2px grey;
+  }
+  .mobileSidebarOff{
+    display: none;
+  }
+
+
+  .mobileFooterMenu{
+    display: block;
+    background-color: #ed6c41; 
+    height: 60px; 
+    position: sticky; 
+    z-index: 30; 
+    width: 100%; 
+    bottom: 0;
+  }
+  .parempiValintaImage{
+    width: 24%; 
+    float: left; 
+    /* margin-top: 22px; */
+  }
+  .footerCopyright{
+    margin-top: 10px;
+    color: white;
+    font-size: 15px !important;
+  }
+  .tabStyleMobile{
+    width: 33% !important;
+  }
+  .footerDiv{
+    display: none;
+  }
+  .navbar-collapse collapse{
+    display: none;
+  }
+  .headerImage{
+    display: none;
+  }
+  .browserPages{
+    display: none;
+  }
+  .todayMobileOn{
+    display: block;
+  }
+  .todayMobileOff{
+    display: none;
+  }
+  .monthMobileOn{
+    display: block;
+  }
+  .monthMobileOff{
+    display: none;
+  }
+  
+}
+
+@font-face {
+  font-family: 'SF-Pro';
+  font-style: normal;
+  font-weight: normal;
+  src:
+    local('SF-Pro'),
+    local('SF-Pro'),
+    url('./SF-Pro-Display-Light.otf') format('opentype');
+}
+
+body {
+  font-family: 'SF-Pro';
+}

@@ -1,0 +1,246 @@
+[
+    {
+        "kitchenName": "JAMIX DEMO",
+        "kitchenId": 3,
+        "address": "",
+        "city": "",
+        "email": "",
+        "phone": "",
+        "info": "",
+        "menuTypes": [
+            {
+                "menuTypeId": 1,
+                "menuTypeName": "Kiertävä",
+                "menus": [
+                    {
+                        "menuName": "Kotipalveluateriat",
+                        "menuAdditionalName": "28.1.2019-21.4.2019",
+                        "menuId": 12,
+                        "days": [
+                            {
+                                "date": 20190305,
+                                "weekday": 2,
+                                "mealoptions": [
+                                    {
+                                        "name": "Keittolounas",
+                                        "orderNumber": 6,
+                                        "id": 8,
+                                        "menuItems": [
+                                            {
+                                                "name": "Minestronekeitto",
+                                                "orderNumber": 1000,
+                                                "portionSize": 300,
+                                                "diets": "",
+                                                "ingredients": "Vesi, Pekoni, Nakki kuoreton, Peruna keitetty, Porkkana, Valkosipuli, Täysjyvädurumvehnäjauho (51%), durumvehnäjauho, vesi. (gluteeni, Vehnä), Herne pakastettu, Purjosipuli, Selleri (selleri), Sipuli kevät, Tomaattisose, Lihaliemijauhe, Persilja, Ruokasuola, Salvia, Valkopippuri jauhettu"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "Lounas",
+                                        "orderNumber": 11,
+                                        "id": 6,
+                                        "menuItems": [
+                                            {
+                                                "name": "Liha/kinkkukiusaus",
+                                                "orderNumber": 1000,
+                                                "portionSize": 300,
+                                                "diets": "",
+                                                "ingredients": "Peruna keitetty, Maito ja D-vitamiini (maito), Kinkkusuikale, Kerma, stabilointiaine karrageeni, Sipuli, Ruokasuola, Paprika jauhe (Paprika), Valkopippuri jauhettu"
+                                            },
+                                            {
+                                                "name": "Juoma+Leipä+Levite",
+                                                "orderNumber": 2000,
+                                                "portionSize": 240,
+                                                "diets": "",
+                                                "ingredients": "Maito ja D-vitamiini (maito), vehnäjauho, vesi,täysjyvävehnäjauho, vehnälese, vehnäproteiini, suola, rypsiöljy ja hiiva (gluteeni), Margariini laktoositon (maito)"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "menuTypeId": 5,
+                "menuTypeName": "Demo",
+                "menus": [
+                    {
+                        "menuName": "JAMIX DEMO",
+                        "menuAdditionalName": "JAMIX MENU",
+                        "menuId": 92,
+                        "days": [
+                            {
+                                "date": 20190305,
+                                "weekday": 2,
+                                "mealoptions": [
+                                    {
+                                        "name": "Lounas",
+                                        "orderNumber": 5,
+                                        "id": 6,
+                                        "menuItems": [
+                                            {
+                                                "name": "Lohikeitto",
+                                                "orderNumber": 1000,
+                                                "portionSize": 301,
+                                                "diets": "G, MUNATON, SYDANMERKK",
+                                                "ingredients": "Peruna, Vesi, Maito kevyt, vähälaktoosinen (maito), Lohi annospaloina (kala), Sipuli kuutio, Tilli pakaste, Voi (Kerma, suola (1,4 %) ja hapate) (maito), Kalaliemijauhe (Suola (33%), maltodekstriini (maissi), kala-aromi, paakkuuntumisenestoaine (E551).) (kala), Ruokasuola, Maustepippuri jauhettu"
+                                            },
+                                            {
+                                                "name": "Salaattisekoitus",
+                                                "orderNumber": 2000,
+                                                "portionSize": 50,
+                                                "diets": "",
+                                                "ingredients": "Salaattisekoitus"
+                                            },
+                                            {
+                                                "name": "Sekaleipä ",
+                                                "orderNumber": 3000,
+                                                "portionSize": 30,
+                                                "diets": "",
+                                                "ingredients": "Sekaleipä (vehnäjauho, vesi,täysjyvävehnäjauho, vehnälese, vehnäproteiini, suola, rypsiöljy ja hiiva) (gluteiini)"
+                                            },
+                                            {
+                                                "name": "Voi-kasviöljyseos",
+                                                "orderNumber": 4000,
+                                                "portionSize": 2,
+                                                "diets": "",
+                                                "ingredients": "Voi-kasviöljyseos (voi, rypsiöljy, vesi, suola ja D-vitamiini) (maito)"
+                                            },
+                                            {
+                                                "name": "Maitojuoma, laktoositon ",
+                                                "orderNumber": 5000,
+                                                "portionSize": 200,
+                                                "diets": "",
+                                                "ingredients": "Maitojuoma, laktoositon (Maito ja D-vitamiini)"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "Lounas",
+                                        "orderNumber": 5,
+                                        "id": 6,
+                                        "menuItems": [
+                                            {
+                                                "name": "Perunavelli",
+                                                "orderNumber": 1000,
+                                                "portionSize": 301,
+                                                "diets": "G, MUNATON, SYDANMERKK",
+                                                "ingredients": "Peruna, Vesi, Maito kevyt, vähälaktoosinen (maito), Lohi annospaloina (kala), Sipuli kuutio, Tilli pakaste, Voi (Kerma, suola (1,4 %) ja hapate) (maito), Kalaliemijauhe (Suola (33%), maltodekstriini (maissi), kala-aromi, paakkuuntumisenestoaine (E551).) (kala), Ruokasuola, Maustepippuri jauhettu"
+                                            },
+                                            {
+                                                "name": "Salaattisekoitus",
+                                                "orderNumber": 2000,
+                                                "portionSize": 50,
+                                                "diets": "",
+                                                "ingredients": "Salaattisekoitus"
+                                            },
+                                            {
+                                                "name": "Sekaleipä ",
+                                                "orderNumber": 3000,
+                                                "portionSize": 30,
+                                                "diets": "",
+                                                "ingredients": "Sekaleipä (vehnäjauho, vesi,täysjyvävehnäjauho, vehnälese, vehnäproteiini, suola, rypsiöljy ja hiiva) (gluteiini)"
+                                            },
+                                            {
+                                                "name": "Voi-kasviöljyseos",
+                                                "orderNumber": 4000,
+                                                "portionSize": 2,
+                                                "diets": "",
+                                                "ingredients": "Voi-kasviöljyseos (voi, rypsiöljy, vesi, suola ja D-vitamiini) (maito)"
+                                            },
+                                            {
+                                                "name": "Maitojuoma, laktoositon ",
+                                                "orderNumber": 5000,
+                                                "portionSize": 200,
+                                                "diets": "",
+                                                "ingredients": "Maitojuoma, laktoositon (Maito ja D-vitamiini)"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "menuName": "Tuotevalikoima",
+                        "menuAdditionalName": "JAMIX MENU",
+                        "menuId": 79,
+                        "days": [
+                            {
+                                "date": 20190305,
+                                "weekday": 2,
+                                "mealoptions": [
+                                    {
+                                        "name": "Salaatti",
+                                        "orderNumber": 6,
+                                        "id": 16,
+                                        "menuItems": [
+                                            {
+                                                "name": "Caesar-salaatti",
+                                                "orderNumber": 1000,
+                                                "portionSize": 320,
+                                                "diets": "G",
+                                                "ingredients": "Romainesalaatti, Majoneesi 78% (muna), Juusto Parmesan (maito), Anjovis filee (kala), Sitruunamehu (sitrus), Valkosipuli"
+                                            },
+                                            {
+                                                "name": "Hedelmäinen broilersalaatti",
+                                                "orderNumber": 2000,
+                                                "portionSize": 320,
+                                                "diets": "",
+                                                "ingredients": "Broileri fileesuikale hunajamarinoitu (tämä tulisi mukaan), Ranskalainen salaatinkastike, Ananas pala, omassa liemessään, Mandariini säilyke, Viinirypäle vihreä, Tomaatti kuutio (tomaatti), Kurkku tuore, kuutio, Jäävuorisalaatti"
+                                            },
+                                            {
+                                                "name": "Karambola-kirjolohisalaatti",
+                                                "orderNumber": 3000,
+                                                "portionSize": 320,
+                                                "diets": "",
+                                                "ingredients": "Lohifile (kala), Lehtisalaatti, Karambola, Porkkana suikale, Varsiselleri (selleri), Ruokaöljy, Purjosipuli, Sitruunamehutiiviste, Sokeri, Ruokasuola, Sinappi (sinappi), Ruohosipuli hiennonnettu, Persilja, Tilli, Sitruunapippuri jauhettu, Yrttikastike, Mustapippuri rouhe"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "Leipävalikoima",
+                                        "orderNumber": 16,
+                                        "id": 38,
+                                        "menuItems": [
+                                            {
+                                                "name": "Salami-juustoleipä",
+                                                "orderNumber": 1000,
+                                                "portionSize": 180,
+                                                "diets": "",
+                                                "ingredients": "Sämpylä (gluteiini), Juusto viipale laktoositon (maito), Keittokinkku viipale, Salami, viipale, Sweet chili -kastike, Salaatinlehti, Jalopeno"
+                                            },
+                                            {
+                                                "name": "Juustosämpylä",
+                                                "orderNumber": 2000,
+                                                "portionSize": 161,
+                                                "diets": "",
+                                                "ingredients": "Sämpylä (gluteiini), Kurkku tuore, viipale, Margariini (maito), Juusto viipale laktoositon (maito), Salaatinlehti"
+                                            },
+                                            {
+                                                "name": "Kinkku toast",
+                                                "orderNumber": 3000,
+                                                "portionSize": 117,
+                                                "diets": "",
+                                                "ingredients": "Paahtoleipä, viipale, Juusto viipale laktoositon (maito), Keittokinkku viipale, Ranskankerma Creme fraiche kevyt vähälaktoosinen (maito), Margariini (maito), Dijonin sinappi (sinappi), Tomaattipyre, Mustapippuri rouhe"
+                                            },
+                                            {
+                                                "name": "Juusto toast",
+                                                "orderNumber": 4000,
+                                                "portionSize": 97,
+                                                "diets": "",
+                                                "ingredients": "Paahtoleipä, viipale, Juusto viipale laktoositon (maito), Ranskankerma Creme fraiche kevyt vähälaktoosinen (maito), Margariini (maito), Dijonin sinappi (sinappi), Tomaattipyre, Mustapippuri rouhe"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

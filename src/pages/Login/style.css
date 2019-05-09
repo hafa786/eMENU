@@ -1,0 +1,237 @@
+.cornerRedTop {
+   
+    border: 1px solid #ccc;
+    background-color: #fff;
+    position: relative;
+}
+
+.cornerRedTop::before,
+.cornerRedTop::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-color: transparent;
+    border-style: solid;
+}
+
+.cornerRedTop::before {
+    border-width: 1.5em;
+    border-right-color: #ccc;
+    border-top-color: #ccc;
+}
+
+.cornerRedTop::after {
+    border-radius: 0.4em;
+    border-width: 12.35em 29.35em 12.35em 29.35em;
+    border-right-color: #ed6c41;
+    border-top-color: #ed6c41;
+}
+
+.loginImagesDiv{
+    width: 100%;
+    height: 300px;
+}
+.loginImages{
+    margin-top: 100px;
+    width: 45%; 
+    float: right;
+    margin-right: 4%;
+}
+
+.loginInputs{
+    box-sizing: border-box;
+    height: 33.2px;
+    border: none;
+    border-radius: 2px;
+    background-color: transparent;
+    color: #a7a7a7; 
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-bottom: solid 1px lightgrey;
+    z-index: 1000;
+}
+
+.menuLogo{
+    width: 150px ;
+    height: 100px ;
+    top: 100px ; 
+    right: 100px ; 
+    position: absolute ; 
+    z-index: 99 ;
+}
+
+.footerTexts{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    color: #a7a7a7;
+}
+
+.loginImagesMobileSaimaa{
+    display: none;
+
+}
+.loginImagesMobileImatra{
+    display: none;
+}
+
+@import url("//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
+.inputsLogin { position: relative; }
+.inputsLogin input { text-indent: 30px;}
+.inputsLogin .fa-inputsLogin { 
+  position: absolute;
+  top: 24px;
+  left: 7px;
+  font-size: 15px;
+}
+
+@media only screen and (max-width: 1300px) {
+    .cornerRedTop::after {
+        border-radius: 0.4em;
+        border-width: 12.35em 12.35em 12.35em 12.35em;
+        border-right-color: #ed6c41;
+        border-top-color: #ed6c41;   
+    }
+    .menuLogo{
+        width: 150px ;
+        height: 100px ;
+        top: 100px ; 
+        right: 0px ; 
+        position: absolute ; 
+        z-index: 99 ;
+    }
+  }
+
+@media only screen and (max-width: 1000px) {
+
+    .main-panel{
+        overflow: hidden !important;
+    }
+
+    .cornerRedTop::before {
+        display: none;
+    }
+
+    .loginImagesDiv{
+        display: none;
+    }
+    
+    .cornerRedTop::after {
+        display: none;
+    }
+
+    .loginImages{
+        display: none;
+        /* margin-top: 5px;
+        width: 60%; 
+        float: none;
+        margin-right: 4%; */
+    }
+    .menuLogo{
+        width: 150px ;
+        height: 100px ;
+        top: 15px ; 
+        right: 113px ; 
+        position: absolute ; 
+        z-index: 99 ;
+    }
+    .loginInputs{
+        box-sizing: border-box;
+        height: 33.2px;
+        border: none;
+        border-radius: 2px;
+        background-color: transparent;
+        color: #565656;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        border-bottom: solid 1px lightgrey;
+        width: 90% !important;
+        z-index: 1000;
+    }
+    .mobileLogin{
+        margin-top: 100px;
+    }
+
+    .mobileCornerGreyTop {
+    
+        border: 1px solid #ccc;
+        background-color: #fff;
+        position: relative;
+    }
+
+    .mobileCornerGreyTop::before,
+    .mobileCornerGreyTop::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        border-color: transparent;
+        border-style: solid;
+    }
+
+    .mobileCornerGreyTop::before {
+        border-width: 1.5em;
+        border-right-color: #ccc;
+        border-top-color: #ccc;
+    }
+
+    .mobileCornerGreyTop::after {
+        border-radius: 0.4em;
+        border-width: 3.35em 58.35em 12.35em 13.35em !important;
+        border-right-color: lightgrey;
+        border-top-color: lightgrey;
+    }
+
+    .mobileCornerGreyBottom {
+    
+        /* border: 1px solid #ccc; */
+        background-color: #fff;
+        position: relative;
+    }
+
+    .mobileCornerGreyBottom::before,
+    .mobileCornerGreyBottom::after {
+        content: '';
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        border-color: transparent;
+        border-style: solid;
+    }
+
+    .mobileCornerGreyBottom::before {
+        border-width: 1.5em;
+        border-left-color: #ccc;
+        border-bottom-color: #ccc;
+    }
+
+    .mobileCornerGreyBottom::after {
+        border-radius: 0.4em;
+        border-width: 2.00em 58.00em 8.35em 13.35em;
+        border-left-color: lightgrey;
+        border-bottom-color: lightgrey;
+    }
+    .footerTexts{
+        display: none;
+    }
+    .loginImagesMobileSaimaa{
+        z-index: 1234;
+        width: 100px;
+        position: absolute;
+        bottom: 50px;
+        left: 10px;
+        display: block;
+
+    }
+    .loginImagesMobileImatra{
+        z-index: 1234;
+        width: 100px;
+        position: absolute;
+        bottom: 50px;
+        left: 40%;
+        display: block;
+    }
+
+    
+  }
