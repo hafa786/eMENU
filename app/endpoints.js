@@ -41,19 +41,19 @@ app.get("/read", (req, res, next) => {
 });
 
 // ******************* insert data ***********************
-app.get("/insert", (req, res, next) => {
+app.post("/insert", (req, res, next) => {
     // calling the database 
     res.json(database.database._insert())
 });
 
 // ******************* updata data ***********************
-app.get("/modify", (req, res, next) => {
+app.put("/modify", (req, res, next) => {
     // calling the database 
     res.json(database.database._modify())
 });
 
 // ******************* delete data ***********************
-app.get("/remove", (req, res, next) => {
+app.delete("/remove", (req, res, next) => {
     // calling the database 
     res.json(database.database._delete())
 });
@@ -85,7 +85,7 @@ app.get("/signup/:name/:email/:school/:password/:type/", async (req, res, next) 
         res.send([])
     }
 });
-app.get("/login/:email/:password/", async (req, res, next) => {
+app.post("/login/:email/:password/", async (req, res, next) => {
     // calling the database 
     var email = req.params.email;
     var pass = req.params.password;
@@ -117,7 +117,7 @@ app.get("/userslist/", async (req, res, next) => {
 });
 
 // changepassword
-app.get("/changepassword/:userid/:password/", async (req, res, next) => {
+app.put("/changepassword/:userid/:password/", async (req, res, next) => {
     // calling the database 
     var userID = req.params.userid
     var newPassword = req.params.password
@@ -135,7 +135,7 @@ app.get("/single_user/:userID", async (req, res, next) => {
 });
 
 // delete user by ID
-app.get("/delete_user/:userID", async (req, res, next) => {
+app.delete("/delete_user/:userID", async (req, res, next) => {
     // calling the database
     var userID = req.params.userID;
     let _r = await db.remove_user(userID)
@@ -163,7 +163,7 @@ app.post("/postjamixfood/:foodname/:scheduleddate/:description/:price/:school/",
 });
 
 // add new foods - admin or food provider
-app.get("/postfood/:foodname/:scheduleddate/:description/:price/:school/", async (req, res, next) => {
+app.post("/postfood/:foodname/:scheduleddate/:description/:price/:school/", async (req, res, next) => {
     // calling the database 
     var fname = req.params.foodname
     var date = req.params.scheduleddate
@@ -233,7 +233,7 @@ app.get("/futurethreeweeksfoods/", async (req, res, next) => {
 
 
 // remove foods
-app.get("/delete_food/:foodID", async (req, res, next) => {
+app.delete("/delete_food/:foodID", async (req, res, next) => {
     // calling the database
     var foodID = req.params.foodID;
     let _r = await db.remove_food(foodID)
@@ -295,7 +295,7 @@ app.get("/votingbyfoods/:food/", async (req, res, next) => {
 });
 
 // single foods on date
-app.get("/removevoting/:food/:userID/", async (req, res, next) => {
+app.delete("/removevoting/:food/:userID/", async (req, res, next) => {
     // calling the database 
     var food = req.params.food
     var user = req.params.userID
@@ -305,7 +305,7 @@ app.get("/removevoting/:food/:userID/", async (req, res, next) => {
 });
 
 // single foods on date
-app.get("/postvoting/:food/:userID/:vote/", async (req, res, next) => {
+app.post("/postvoting/:food/:userID/:vote/", async (req, res, next) => {
     // calling the database 
     var food = req.params.food
     var user = req.params.userID
@@ -317,7 +317,7 @@ app.get("/postvoting/:food/:userID/:vote/", async (req, res, next) => {
 });
 
 // single foods on date
-app.get("/postfuturingvoting/:food/:userID/:futurevote/:sche_date/", async (req, res, next) => {
+app.post("/postfuturingvoting/:food/:userID/:futurevote/:sche_date/", async (req, res, next) => {
     // calling the database 
     var food = req.params.food
     var user = req.params.userID
@@ -359,7 +359,7 @@ app.get("/singleschools/:school_ID", async (req, res, next) => {
 });
 
 // add new school
-app.get("/addnewschool/:name/:domain/:status/", async (req, res, next) => {
+app.post("/addnewschool/:name/:domain/:status/", async (req, res, next) => {
     // calling the database 
     var name = req.params.name
     var domain = req.params.domain
@@ -369,7 +369,7 @@ app.get("/addnewschool/:name/:domain/:status/", async (req, res, next) => {
 });
 
 // modify the school details
-app.post("/modifyschool/:ID/:name/:domain/:status/", async (req, res, next) => {
+app.put("/modifyschool/:ID/:name/:domain/:status/", async (req, res, next) => {
     // calling the database 
     var SchoolID = req.params.ID
     var name = req.params.name
@@ -387,7 +387,7 @@ app.get("/getschoolslist/", async (req, res, next) => {
 });
 
 // remove school
-app.get("/delete_school/:schoolID", async (req, res, next) => {
+app.delete("/delete_school/:schoolID", async (req, res, next) => {
     // calling the database
     var schoolID = req.params.schoolID;
     let _r = await db.remove_school(schoolID)
