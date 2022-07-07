@@ -42,7 +42,7 @@
     "html-webpack-plugin": "2.29.0",
     "jest": "20.0.4",
     "mdbreact": "^4.11.1",
-    "moment": "^2.18.1",
+    "moment": "^2.29.4",
     "mysql": "^2.16.0",
     "object-assign": "4.1.1",
     "pe7-icon": "^1.0.4",
